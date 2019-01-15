@@ -24,5 +24,5 @@ web browser
 ## Acknowledgments
 
 * Used free stock images from [Pexels](https://www.pexels.com)
-* w3schools for the Bootstrap Tutorial [w3schools](https://www.w3schools.com/bootstrap4/)
+* [w3schools](https://www.w3schools.com/bootstrap4/) for the Bootstrap Tutorial 
 * [Udacity](https://www.udacity.com/) for the HTML and CSS coruse material.
