@@ -13,3 +13,14 @@ web browser
 
 [https://bsh3pj.github.io/Portfolio-Site/](https://bsh3pj.github.io/Portfolio-Site/) 
 
+## Built With
+
+* [Bootstrap 4](https://getbootstrap.com/)
+
+## Authors
+
+* **Brandon Sheppard** - [bsh3pj](https://github.com/bsh3pj)
+
+## Acknowledgments
+
+* Used free stock images from [Pexels](https://www.pexels.com)
