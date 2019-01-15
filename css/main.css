@@ -1,0 +1,41 @@
+body {
+  font-family: 'Roboto Slab', serif;
+  margin: 10px;
+}
+.header-img {
+	height: 60px;
+}
+
+h1, h2 {
+  text-align: right;
+}
+
+.divider {
+  border-top: 3px double #344;
+}
+
+h3, h4 {
+  text-align: center;
+  color: #79a;
+}
+
+.top-buffer { 
+  margin-top: 1%;
+}
+
+.card-buffer { 
+  margin-top: 3%;
+  border: none;
+}
+
+.card-img-buffer {
+  margin-bottom: 2%;
+}
+
+.main-img {
+  margin-bottom: 3%;
+}
+
+p {
+    color: darkslategrey
+}

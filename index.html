@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <!-- Main CSS & Font -->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">  
+    <title>Bsh3pj Portfolio</title>
+  </head>  
+  <body>
+    <!-- Ensures the entire page is fluid container for Bootstrap grid -->
+    <div class="container-fluid">      
+      <header>
+        <!-- The Logo occupies the 1st column on the left and the other 11 belong to the headers -->
+        <div class="row">
+          <div class="col-1">
+            <img class="header-img" src="img/udacity.png" alt="">
+          </div>
+          <div class="col-11">
+            <h1>Brandon Sheppard</h1>
+            <h2>Full Stack Newbie</h2>
+          </div>
+        </div>
+      </header>           
+      <main>
+        <hr class="divider"> 
+        <!-- Creates a fluid image that will cahnge with screen size -->
+        <img class="img-fluid main-img" src="img/art-close-up-color-159731.jpg" alt="">
+        <h3>Featured Work</h3>
+        <!-- Creates 3 Bootstrap Card classes that take up a 4 columns normally. When used on the mobile device the Cards will take up an entire row of 12 columns for readability --> 
+        <div class="row top-buffer">
+          <div class="card col-md-4 col-xs-12 card-buffer">
+            <img class="card-img-top img-fluid card-img-buffer" src="img/device-electronics-equipment-157543.jpg" alt="">
+            <h4>Movie-Trailer-Website</h4>
+            <p>A movie trailer website where users can see my favorite movies and watch the trailers. Python is used to store information that is displayed on a web page and allow users to review the movies and watch the trailers.</p>
+            <a href="https://github.com/bsh3pj/Movie-Trailer-Website" class="btn btn-primary">View Project</a>
+          </div>
+          <div class="card col-md-4 col-xs-12 card-buffer">
+            <img class="card-img-top img-fluid card-img-buffer" src="img/architecture-blur-bokeh-990093.jpg" alt="">
+            <h4>*Under Development*</h4>
+            <p>Description for a future project</p>
+            <a href="https://github.com/bsh3pj" class="btn btn-primary">View GitHub repositories</a>
+          </div>
+          <div class="card col-md-4 col-xs-12 card-buffer">
+            <img class="card-img-top img-fluid card-img-buffer" src="img/adult-architect-blueprint-416405.jpg" alt="">
+            <h4>*Under Development*</h4>
+            <p>Description for a future project</p>
+            <a href="https://github.com/bsh3pj" class="btn btn-primary">View GitHub repositories</a>
+          </div>
+        </div>
+      </main> 
+    </div>
+  </body>
